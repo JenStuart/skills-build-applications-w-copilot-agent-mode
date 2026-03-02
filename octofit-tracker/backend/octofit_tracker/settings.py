@@ -95,7 +95,7 @@ DATABASES = {
             'username': '',
             'password': '',
             'authSource': 'admin',
-            'authMechanism': '',
+            # Remove authMechanism if not needed
         },
     }
 }
